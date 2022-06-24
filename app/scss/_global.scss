@@ -1,0 +1,46 @@
+html,
+body {
+	height: 100%;
+	color: #2d404c;
+	background: #131C2E;
+}
+aside{
+	position: relative;
+	float: left;
+	max-width: 320px;
+}
+a,
+button{
+	cursor: pointer;
+}
+
+.wrapper {
+	display: flex;
+	flex-direction: column;
+	min-height: 100%;
+	position: relative;
+}
+
+.main {
+	flex: 1 0 auto;
+}
+
+.footer {
+	flex: 0 0 auto;
+}
+
+.container{
+  max-width: 1290px;
+  margin: 0 auto;
+  padding: 0 75px;
+}
+.container-fluid{
+	max-width: 1920px;
+	margin: 0 auto;
+	padding: 0 0;
+}
+
+
+
+
+
